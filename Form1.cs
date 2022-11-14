@@ -6,5 +6,11 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Graphics gr = CreateGraphics();
+            gr.FillRectangle(Brushes.White, 0, 0, 100, 100);
+        }
     }
 }
