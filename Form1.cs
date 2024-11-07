@@ -11,6 +11,10 @@ namespace WinFormsApp1
         {
             Graphics gr = CreateGraphics();
             gr.FillRectangle(Brushes.White, 0, 0, 100, 100);
+
+
+            Graphics graphics = CreateGraphics();
+            graphics.FillEllipse(Brushes.Green, 20, 50, 100, 100);
         }
     }
 }
